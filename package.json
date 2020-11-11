@@ -1,0 +1,16 @@
+{
+  "name": "code-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test jest test/*.*.test.js --coverage --forceExit --detectOpenHandles"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^26.1.0",
+    "moment": "^2.27.0",
+    "moment-timezone": "^0.5.31"
+  }
+}
